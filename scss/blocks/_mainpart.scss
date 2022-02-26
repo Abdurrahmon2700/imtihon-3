@@ -46,7 +46,7 @@
 .shooping__title {
   font-size: 16px;
   margin-bottom: 10px;
-  color: #0a472e;
+  color: $primary-bkg-color;
 }
 
 .shopping__text {
@@ -114,7 +114,7 @@ ul {
 
 .product__title {
   font-size: 30px;
-  color: #0a472e;
+  color: $primary-bkg-color;
   font-weight: 400;
   margin-left: 30px;
 }
@@ -124,26 +124,26 @@ ul {
   width: 17px;
   height: 17px;
   border-radius: 50px;
-  background-color: #fff;
-  border: 1px solid #bac34e;
+  background-color: $white_color;
+  border: 1px solid $primary-hover;
   position: absolute;
   left: 0;
   top: 12px;
 }
 
 .product__title__link {
-  color: #bac34e;
+  color: $primary-hover;
   font-size: 14px;
   font-weight: bold;
 }
 
 .product__title__link:hover {
-  color: #bac34e;
+  color: $primary-hover;
 }
 
 
 .product__title__arrow {
-  color: #bac34e;
+  color: $primary-hover;
   transition: all 0.4s ease;
 }
 
@@ -174,7 +174,7 @@ ul {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: $white_color;
   border: 1px solid #e1e1e1;
   transition: all 0.4s ease;
   bottom: -50px;
@@ -192,11 +192,11 @@ ul {
 }
 
 .product__icon-btn:hover {
-  background-color: #0a472e;
+  background-color: $primary-bkg-color;
 }
 
 .product__icon-btn:hover .product__icon {
-  color: #fff;
+  color: $white_color;
   transition: all 0.4s ease;
 }
 
@@ -205,11 +205,11 @@ ul {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
-  color: #bac34e;
+  color: $primary-hover;
 }
 .product__text {
   padding: 0 30px;
-  color: #000;
+  color: $border-color;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -218,7 +218,7 @@ ul {
 }
 
 .product__text:hover {
-  color: #bac34e;
+  color: $primary-hover;
   transition: all 0.4s ease;
 }
 
@@ -245,7 +245,7 @@ ul {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000;
+  color: $border-color;
   text-decoration: none;
 }
 
@@ -254,18 +254,18 @@ ul {
   position: relative;
   font-size: 18px;
   top: 3px;
-  color: #000;
+  color: $border-color;
   transition: all 0.4s ease;
 }
 
 .product__link:hover {
-  color: #bac34e;
+  color: $primary-hover;
 }
 
 .product__link:hover .product__ad-icon {
   transition: all 0.4s ease;
   transform: translateX(5px);
-  color: #bac34e;
+  color: $primary-hover;
 }
 
 @media screen and (max-width:992px) {
@@ -342,7 +342,7 @@ ul {
   font-size: 22px;
   margin-bottom: 8px;
   text-transform: uppercase;
-  color: #000;
+  color: $border-color;
 }
 .modal__eye-cost {
   color: #e0bf96;
@@ -352,14 +352,14 @@ ul {
 }
 .mdoal__eye-text {
   font-size: 11px;
-  color: #aaa;
+  color: $opcacity-color;
   font-weight: 400;
 }
 .modal__eye-input {
   width: 120px;
   border-radius: 20px;
   padding: 0 15px 0 25px;
-  border: 1px solid #aaa;
+  border: 1px solid $opcacity-color;
   height: 44px;
 }
 
@@ -371,31 +371,31 @@ ul {
   line-height: 49px;
   padding: 0 55px;
   font-size: 12px;
-  color: #fff;
+  color: $white_color;
   text-transform: uppercase;
   font-weight: 700;
   transition: all 0.3s;
   border-radius: 20px;
   border: none;
-  background-color: #0a472e;
+  background-color: $primary-bkg-color;
   margin-bottom: 20px;
 }
 
 .modal__eye-submit:hover {
   transition: all 0.3s;
-  background-color: #bac34e;
+  background-color: $primary-hover;
 }
 
 .modal__eye-link {
   text-decoration: none;
   font-size: 11px;
-  color: #000;
+  color: $border-color;
   transition: all 0.3s;
 }
 
 .modal__eye-link:hover {
   transition: all 0.3s;
-  color: #bac34e;
+  color: $primary-hover;
 }
 
 .modal__eye-link:nth-child(2) {
@@ -410,7 +410,7 @@ ul {
 }
 
 .last__title {
-  color: #000;
+  color: $border-color;
   text-transform: uppercase;
   font-size: 12px;
 }

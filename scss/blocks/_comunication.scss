@@ -20,30 +20,29 @@
 }
 .comu__daily {
   font-size: 13px;
-  color: #aaa;
+  color: $opcacity-color;
   margin-bottom: 10px;
 }
 .comu__subsc {
   font-size: 12px;
   font-weight: 600;
-  color: #000;
+  color: $border-color;
   margin-bottom: 15px;
 }
 .comu__number {
   font-size: 30px;
   font-weight: 400;
-  color: #bac34e;
+  color:$primary-hover;
   margin-bottom: 15px;
 }
 .comu__comtact {
   font-size: 14px;
-  color: #0a472e;
+  color: $primary-bkg-color;
 }
 
 .comu__sign {
-
   font-size: 14px;
-  color: #555;
+  color: $text-color;
 }
 .comu__input {
   height: 38px;
