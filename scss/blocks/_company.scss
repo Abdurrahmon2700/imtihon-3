@@ -1,0 +1,49 @@
+.company {
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width:992px) {
+  .company__img1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .company__img2 {
+    display: none;
+  }
+
+  .company__img3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:568px) {
+
+  .company__img4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .company__img5{
+    display: none;
+  }
+
+  .company__img6{
+    margin: 0 auto;
+  }
+
+  .company {
+    padding-top: 20px;
+  }
+
+  .cutomer__desc {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,72 @@
+.comunication {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.comunaction__part {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.comunication__img {
+  width: 64px;
+  height: 64px;
+}
+.communication__text-part {
+  margin-left: 50px;
+
+}
+.comu__daily {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+.comu__subsc {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+.comu__number {
+  font-size: 30px;
+  font-weight: 400;
+  color: #bac34e;
+  margin-bottom: 15px;
+}
+.comu__comtact {
+  font-size: 14px;
+  color: #0a472e;
+}
+
+.comu__sign {
+
+  font-size: 14px;
+  color: #555;
+}
+.comu__input {
+  height: 38px;
+  border: 1px solid #e2e2e2;
+  width: 100%;
+  border-radius: 50px;
+  padding: 0 45px 0 15px;
+}
+
+
+@media screen and (max-width:768px) {
+  .comunication {
+    flex-direction: column;
+  }
+
+  .comunaction__part {
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .comunication__img {
+    margin-left: 50px;
+  }
+}
